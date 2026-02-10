@@ -15,7 +15,7 @@ Cada sección indica un tipo de elemento o grupo de elementos, luego lista las p
 @import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
 
 :root {
-  --color-bg: #69f7be;
+  --color-bg: #42889d;
   --altoBloque: 87vh;
   /* vh view width */
   --imagen-max-width: 300px;
@@ -31,7 +31,7 @@ body {
 }
 
 .bloqueSuperior {
-  color: #2800ff;
+  color: #170e01;
   min-height: var(--altoBloque);
   display: grid;
   place-items: center;
@@ -53,8 +53,8 @@ body {
 }
 
 #titulo {
-  color: #2800ff;
-  font-family: 'Asimovian', sans-serif;
+  color: #ffa600;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
   font-weight: 666;
   font-size: 10vw;
   line-height: 105%;
@@ -66,10 +66,10 @@ body {
 }
 
 #subtitulo {
-  font-family: 'Clash Display', sans-serif;
+  font-family: fantasy, sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 1em;
+  font-size: 2em;
 
   h2 {
     color: #4800ff;
@@ -100,8 +100,8 @@ button,
 input {
   font-family: inherit;
   font-size: 100%;
-  background: #ffffff;
-  border: 1px solid #000000;
+  background: #f98dc7;
+  border: 1px solid #ff5353;
   box-sizing: border-box;
   border-radius: 4px;
   padding: 0.5rem 1rem;
@@ -113,10 +113,10 @@ input {
 - La propieda de transition (transición) determina la velocidad (500ms)
 */
 .hundir {
-  transform: translateY(5px);
+  transform: translateY(9px);
 }
 
 /* Interacción con la imagen */
 .ilustracion:active {
-  transform: translateY(5px);
+  transform: translateY(9px);
 }
